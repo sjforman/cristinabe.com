@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css" />
+	<link rel="stylesheet" href="supersized.css" type="text/css" media="screen" />
+	
+	<title>cristinabe</title>  
+		<!--Make new .ico? <link rel="shortcut icon" href="http://    .ico" type="image/x-icon" />  -->
+	<meta http-equiv="Content-language" content="en-US" />
+
+	<style type="text/css">
+		
+		html  {
+			background : #fff;
+		}
+		#content-wrapper{ 
+			width:100%; 
+			height:100%; 
+			position:absolute; 
+			top:0; 
+			overflow:auto; 
+			z-index:4; 
+			text-align:center; 
+		}
+		#content  {
+			margin-left: -133px;
+			margin-top: -137px;
+			width:266px;
+			height:274px; position : absolute; top: 50%; left: 50%;
+		}
+		#content2  {
+			margin-top:20px;
+			width:155px;
+			height:36px; position : absolute; top: 0px; left: 0px; text-align : left; padding-left: 25px;
+		}
+		#logo {
+			background: url('img/cristinabe_logo.png') no-repeat center center;
+			display: block;
+			width: 266px;
+			height: 274px;
+		}
+		a.to_linkedin {
+			background : url('img/linkedin_logo.png') no-repeat top left;
+			display: block;
+			width : 155px;
+			height : 36px;
+		}
+		a.to_linkedin:hover  {
+			background : url('linkedin_logo_hover.png') no-repeat top left;
+			height: 36px;		
+		}
+		a.email_link  {
+			background : url('gmail_logo.png') no-repeat top left;
+			display: block;
+			width : 155px;
+			height : 36px;
+		}
+		a.email_link:hover  {
+			background : url('gmail_logo_hover.png') no-repeat top left;
+			height: 36px;		
+		}
+
+			
+	</style>
+
+
+	</head>
+	
+	<body>
+		<div id="content-wrapper">
+
+			<div id="content">
+		
+				<div id="logo"></div>
+		
+			</div>
+        
+        
+			<div id="content2">
+		
+				<a href="mailto:cristinabe@gmail.com" class="email_link"></a>
+				<a href="http://www.linkedin.com/in/cristinabejarano/" target="_blank" class="to_linkedin"></a>
+		
+			</div>
+
+		</div>
+
+		<div class="supersized"></div>
+		
+
+
+	</body>
+	<script type="text/javascript">
+	
+		jQuery(function($){
+			$.supersized({
+			
+				//Functionality
+				slideshow               :   1,		//Slideshow on/off
+				autoplay				:	1,		//Slideshow starts playing automatically
+				start_slide             :   1,		//Start slide (0 is random)
+				random					: 	0,		//Randomize slide order (Ignores start slide)
+				slide_interval          :   5000,	//Length between transitions
+				transition              :   1, 		//0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+				transition_speed		:	750,	//Speed of transition
+				new_window				:	1,		//Image links open in new window/tab
+				pause_hover             :   0,		//Pause slideshow on hover
+				keyboard_nav            :   1,		//Keyboard navigation on/off
+				performance				:	1,		//0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+				image_protect			:	1,		//Disables image dragging and right click with Javascript
+				image_path				:	'img/', //Default image path
+				
+				//Size & Position
+				min_width		        :   0,		//Min width allowed (in pixels)
+				min_height		        :   0,		//Min height allowed (in pixels)
+				vertical_center         :   1,		//Vertically center background
+				horizontal_center       :   1,		//Horizontally center background
+				fit_portrait         	:   1,		//Portrait images will not exceed browser height
+				fit_landscape			:   0,		//Landscape images will not exceed browser width  
+				
+				//Components
+				navigation              :   1,		//Slideshow controls on/off
+				thumbnail_navigation    :   1,		//Thumbnail navigation
+				slide_counter           :   1,		//Display slide numbers
+				slide_captions          :   1,		//Slide caption (Pull from "title" in slides array)
+				
+				//Flickr
+				source					:	1,						//1-Set, 2-User, 3-Group, 4-Tags
+				set                     :   '72157605001849837', 				//Flickr set ID (found in URL)
+				user					:	'######',				//Flickr user ID (http://idgettr.com/)
+				group					:	'######', 				//Flickr group ID (http://idgettr.com/)
+				tags			: '###,###',    //Comma separated tags
+				total_slides			:	45,					//How many pictures to pull (Between 1-500)
+				image_size              :   'z', 					//Flickr Image Size - t,s,m,z,b  (Details: http://www.flickr.com/services/api/misc.urls.html)
+				sort_by			:    1,		//1-Date Posted, 2-Date Taken, 3-Interestingness
+				sort_direction		:    0,		//0-descending, 1-ascending
+				
+				/**
+	    		FLICKR API KEY
+	    		NEED TO GET YOUR OWN -- http://www.flickr.com/services/apps/create/
+	    		**/
+				api_key					:	'39d193aa541b3077a547ad90c993b2e7'		//Flickr API Key
+					
+			}); 
+		});
+		
+	</script>
+
+</html>
