@@ -23,7 +23,7 @@ var NUM_IMG = images.length;
 $( document ).ready(function( ) {
 
   $('#fullpage').fullpage({
-        slidesColor : ['#243743', '#fff'],
+        slidesColor : ['#006363', "white", '#006363','#006363','#006363','#006363','#006363','#006363','#006363'],
 });
 
   for (var i = 0; i < NUM_IMG; i++) {
