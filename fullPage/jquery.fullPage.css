@@ -91,10 +91,10 @@ html, body {
     opacity: 1;
 }
 #fullPage-nav.right {
-    right: 17px;
+    right: 47px;
 }
 #fullPage-nav.left {
-    left: 17px;
+    left: 47px;
 }
 .fullPage-slidesNav {
     position: absolute;

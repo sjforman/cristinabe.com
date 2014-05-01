@@ -1,52 +1,57 @@
-h1, h2, h3, h4, p, a {
+* {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 30px;
   text-decoration: none;
   color: #999999;
-  margin-left: 200px;
+}
+
+.center {
+  text-align: center;
+}
+
+.words {
+  margin-left: 100px;
+  width: 40%;
+}
+
+.pictures {
+  margin-top: 100px;
+  margin-left: 100px;
+
+}
+
+#index {
+  margin-left: 20%;
+}
+
+#index li {
+  font-size: 24px;
+}
+
+.subhead {
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 a.refresh {
 background: url('../img/cristinabe_logo.png') no-repeat center center;
 display: block;
-width: 500px;
 height: 125px;
 }
 
 a.refresh:hover {
 background: url('../img/cristinabe_logo_hover.png') no-repeat center center;
 display: block;
-width: 500px;
 height: 125px;
 }
 
-a#to_linkedin {
-display: block;
-width : 455px;
-height : 36px;
-}
-
-a#to_linkedin:hover  {
-height: 36px;
+a:hover  {
 color: #CC0000;
 }
 
-a#email_link  {
-display: block;
-width : 455px;
-height : 36px;
+img.thumb {
+  max-width: 300px;
 }
 
-a#email_link:hover  {
-height: 36px;
-color: #CC0000;
-}
-
-#images img {
-  width: 200px;
-  margin: 5px;
-}
-
-.slide img {
+img.full {
   width: 100%;
 }
